@@ -545,4 +545,7 @@ hr{
     .footer_col:nth-child(2),:nth-child(3){
         flex-basis: 100%;
     }
+     .h3{
+        margin-left: 0;
+    }
 }
