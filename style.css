@@ -235,6 +235,9 @@ transition: 0.s;
 
 @media(max-width:700px){
     .rowga{flex-direction: column;}
+    .dhexe-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
 }
 
 /* canpus */
@@ -300,6 +303,11 @@ transition: 0.s;
 
         @media(max-width:700px){
             .row{flex-direction: column;}
+            .layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+
+}
     }
 /* <!-- agabkeena --> */
 
@@ -606,6 +614,9 @@ hr{
     
     .footer_col:nth-child(2),:nth-child(3){
         flex-basis: 100%;
+    }
+     .h3{
+        margin-left: 0;
     }
 }
 
