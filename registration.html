@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8b74d0c6f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="registration.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamhuriya School</title>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+            
+                <img src="Logo.png.png" alt="">
+            </div>
+            <ul class="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="registration.html"> REGISTRATION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+              
+                </ul>
+                <a href="contact.html" class="action_btn">CONTACT</a>
+                <div class="menu_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </div>
+        <div class="drobdown_menu ">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="registration.html"> REGISTRATION</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html" class="action_btn">CONTACT</a></li> 
+        </div>
+        <script>
+            const menuBtn = document.querySelector('.menu_btn')
+            const menuBtnIcon = document.querySelector('.menu_btn i')
+            const drobDownmenu = document.querySelector('.drobdown_menu')
+    
+            menuBtnIcon.onclick = function () {
+                drobDownmenu.classList.toggle('open')
+           
+           const isOpen = drobDownmenu.classList.contains('open')
+        menuBtnIcon.classList = isOpen
+         ? 'fa-solid fa-xmark'
+         : 'fa-solid fa-bars'
+        }
+        </script>
+   
+
+</div>
+<div class="qoral">
+
+    <h1>ISDIIWAN GALI</h1>
+    <P>Fadlan Iska Diiwaan Gali Online Oo Nagu Soo Biir</P>
+</div>
+
+    <div class="wrapper">  
+        <div class="linear">
+            <div class="Right">
+                <img src="about.jpg" alt="">
+            </div>
+            <form class="left">
+                <h3>Registration Form</h3>
+                <div class="formgroup1">
+                    
+                    <input type="text" name="First Name" id="First Name" 
+                     placeholder="First Name" class="formcontrol">
+                    <input type="text"  name="Last Name" id="Last Name"
+                     placeholder="Last Name" class="formcontrol">
+            
+                </div>
+                <div class="formwrapper">
+                    <input type="text" name="MotherName" id="MotherName"
+                     placeholder="Mother Full Name" class="formcontrol">
+                </div>
+                <div class="group2">
+                
+                    <input type="number" name="Number" id="Number" placeholder="Number"
+                     class="formcontrol">
+                    <input type="datetime" name="date" id="date" placeholder="date of birth" 
+                    class="formcontrol">
+            
+                </div>
+                <div class="formwrapper">
+                    <input type="" name="placeOfBirth" id="placeOfBirth" 
+                    placeholder="Place Of Birth" class="formcontrol">
+                </div>
+                <div class="formwrapper">
+                    <select name="" id="" class="formcontrol">
+                        <option value="" disabled selected>Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+                <div class="formwrapper">
+                    <input type="text" name=" Adress" id=" Adress" placeholder=" Adress" 
+                    class="formcontrol">
+                </div>
+              
+                <div class="formwrapper">
+                    <input type="email" name="email" id="email" placeholder="Email Adress" 
+                    class="formcontrol">
+                </div>
+                
+                <div class="formwrapper">
+                    <input type="password" name="password" id="password" 
+                    placeholder="Password" class="formcontrol">
+                </div>
+                <div class="formwrapper">
+                    <input type="password" name="password" id="password" 
+                    placeholder="Confirm Password" class="formcontrol">
+                </div>
+                <button>Register</button>
+            </form>
+        </div>
+    
+    
+    </div>
+
+   
+    <footer>
+        <div class="footer_row">
+            <div class="footer_col">
+                <img src="Logo.png.png" class="logo_footer" >
+                <p>Jamhuuriya primary and Secondry school
+                    Ugu imaaw Tayo Waxbarasho Wanaagsan 
+                    Agab Tayo Leh Oo Aad Wax ku barato
+                     Noogu Imaaw Jamhuuriya School<br></p>
+            </div>
+            <div class="footer_col">
+                <h3>Office <div class="underline"><span></span></div></h3>
+                <p>Main</p>
+                <p>Somalia,Mogadishu</p>
+            <p>Banadir,Hodon</p>
+                <p class="email_id">JamhuriyaSchool221@email.com</p>
+                <h4>+252612511396</h4>
+            </div>
+            <div class="footer_col">
+                <h3 class="h3">Links <div class="underline"><span></span></div></h3>
+                <div class="footer_list">
+                   
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutUs.html">ABOUT US</a></li>
+                    <li><a href="registration.html"> REGISTRATION</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="contact.html">CONTACT</a></li> 
+                    </ul>
+                </div>
+            </div>
+            <div class="footer_col">
+                <h3>Comment <div class="underline"><span></span></div></h3>
+                <form class="form">
+                    <i class="far fa-envelope"></i>
+                    <textarea name="textarea" id="Comment" placeholder="Comment" cols="1" rows="1"></textarea>  
+                    <button type="submit" class="buton"><i class="fas fa-arrow-right"></i></button>
+                </form>
+                 <!-- qeeybtaan xuquuqdeeda waxaa iska leh social media yaasha jamhuriya university -->
+
+                 <div class="social_icons">
+                    <a href="https://www.facebook.com/jusa.just?mibextid=ZbWKwL">
+                       <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                       </a>
+                       <a href="https://twitter.com/JamhuriyaUniv?t=87Y1EFy8GUi8Rg3kbqWvBg&s=09">
+                           <i class="fa-brands fa-twitter" style="color: #14a1f2;"></i>
+                       </a>
+                       <a href="https://instagram.com/jamhuriya.university?igshid=NTc4MTIwNjQ2YQ==">
+                           <i class="fa-brands fa-instagram" style="color: #3f729b;"></i>
+                       </a>
+                       <!-- <a href="#"> -->
+                           <i class="fa-brands fa-youtube" style="color: #fb0915;"></i>
+                       <!-- </a> -->
+           </div>
+               
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Jamhuriya School &copy; 2023 - ALL Right Reserved</p>
+    </footer>
+ 
+</body>
+</html>

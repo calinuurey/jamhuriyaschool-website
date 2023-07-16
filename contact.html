@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/8b74d0c6f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="contact.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jamhuriya School</title>
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="logo">
+
+                <img src="Logo.png.png" alt="">
+            </div>
+            <ul class="links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="registration.html"> REGISTRATION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+              
+                </ul>
+                <a href="contact.html" class="action_btn">CONTACT</a>
+                <div class="menu_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+        </div>
+        <div class="drobdown_menu ">
+            <li><a href="index.html">HOME</a></li>
+                <li><a href="aboutUs.html">ABOUT US</a></li>
+                <li><a href="registration.html"> REGISTRATION</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="contact.html" class="action_btn">CONTACT</a></li> 
+        </div>
+        <script>
+            const menuBtn = document.querySelector('.menu_btn')
+            const menuBtnIcon = document.querySelector('.menu_btn i')
+            const drobDownmenu = document.querySelector('.drobdown_menu')
+    
+            menuBtnIcon.onclick = function () {
+                drobDownmenu.classList.toggle('open')
+           
+           const isOpen = drobDownmenu.classList.contains('open')
+        menuBtnIcon.classList = isOpen
+         ? 'fa-solid fa-xmark'
+         : 'fa-solid fa-bars'
+        }
+        </script>
+</div>
+<div class="qoral">
+
+    <h1>CONTACT</h1>
+</div>
+<section class="location">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.
+    290817906309!2d45.301040411227866!3d2.039528558960987!2m3!1f0!2f0!3f0!3m2!1i
+    1024!2i768!4f13.1!3m3!1m2!1s0x3d584208a91e883f%3A0x33b3bacfb4cf94dd!2sJamhuri
+    ya%20University%20of%20Science%20%26%20Technology%20(JUST)!5e0!3m2!1sen!2sso!4
+    v1688140715729!5m2!1sen!2sso" width="600" height="450" style="border:0;" 
+    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+</section>
+<section class="contact">
+    <div class="contectus">
+        <h2>Contact Us</h2>
+        <p>Kusoo Dhawoow Jamhuriya School
+            Waxaad Nagala Soo xiriiri Kartaa 
+             Lambarka Hoos Ku Xusan Ama Email
+              Noogu Sooqorikarataa Emailkeena
+              Hadaad Cawinaad Ubaahantahay Formka 
+             Hoose Buuxi Waxaa Si Degdeg <br>Kaaga Jabaawayo Howl Wadeenadeena</p>
+             <div class="contact_container">
+                <div class="contactinfo">
+                    <div class="contactbox">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h3 class="Adressh3">Adress</h3>
+                            <p>mogadishu,Hodon<br>banadir road</p>
+                        </div>
+                    </div>
+                    <div class="contactbox">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+252612511396</p>
+                        </div>
+                    </div>
+                    <div class="contactbox">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div class="text">
+                            <h3 class="emailh3">Email</h3>
+                            <p>JamhuriyaSchool221@email.com</p>
+                        </div>
+                    </div>
+                </div>
+             </div>
+    </div>
+    <div class="contactform">
+        <form action="form.php" method="post">
+            <h2>Send Message</h2>
+            <div class="inputbox">
+                <input type="text" name="" required>
+                <span>Your full Name</span>
+            </div>
+         
+            <div class="inputbox">
+                <input type="email" name="email" required>
+                <span>Your Email</span>
+            </div>
+            <div class="inputbox">
+                <input type="number" name="number" required>
+                <span>Your Number</span>
+            </div>
+            <div class="inputbox">
+                <input type="text" name="Subject" required>
+                <span>Subject</span>
+            </div>
+
+            <div class="inputbox">
+                <textarea required></textarea>
+                <span>How We Can Help</span>
+            </div>
+            <div class="inputbox">
+                <input type="submit" name="" value="Send" required>
+               
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="footer_row">
+        <div class="footer_col">
+            <img src="Logo.png.png" class="logo_footer" >
+            <p>Jamhuuriya primary and Secondry school
+                Ugu imaaw Tayo Waxbarasho Wanaagsan 
+                Agab Tayo Leh Oo Aad Wax ku barato
+                 Noogu Imaaw Jamhuuriya School <br></p>
+        </div>
+        <div class="footer_col">
+            <h3>Office <div class="underline"><span></span></div></h3>
+            <p>Main</p>
+            <p>Somalia,Mogadishu</p>
+            <p>Banadir,Hodon</p>
+            <p class="email_id">JamhuriyaSchool221@email.com</p>
+            <h4>+252612511396</h4>
+        </div>
+        <div class="footer_col">
+            <h3 class="h3">Links <div class="underline"><span></span></div></h3>
+            <div class="footer_list">
+               
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+            <li><a href="aboutUs.html">ABOUT US</a></li>
+            <li><a href="registration.html"> REGISTRATION</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT</a></li> 
+                </ul>
+            </div>
+        </div>
+        <div class="footer_col">
+            <h3>Comment <div class="underline"><span></span></div></h3>
+            <form class="form">
+                <i class="far fa-envelope"></i>
+                <textarea name="textarea" id="Comment" placeholder="Comment" cols="1" rows="1"></textarea>  
+                <button type="submit" class="buton"><i class="fas fa-arrow-right"></i></button>
+            </form>
+                <!-- qeeybtaan xuquuqdeeda waxaa iska leh social media yaasha jamhuriya university -->
+
+                <div class="social_icons">
+                    <a href="https://www.facebook.com/jusa.just?mibextid=ZbWKwL">
+                       <i class="fa-brands fa-facebook" style="color: blue;"></i>
+                       </a>
+                       <a href="https://twitter.com/JamhuriyaUniv?t=87Y1EFy8GUi8Rg3kbqWvBg&s=09">
+                           <i class="fa-brands fa-twitter" style="color: #14a1f2;"></i>
+                       </a>
+                       <a href="https://instagram.com/jamhuriya.university?igshid=NTc4MTIwNjQ2YQ==">
+                           <i class="fa-brands fa-instagram" style="color: #3f729b;"></i>
+                       </a>
+                       <!-- <a href="#"> -->
+                           <i class="fa-brands fa-youtube" style="color: #fb0915;"></i>
+                       <!-- </a> -->
+           </div>
+           
+        </div>
+    </div>
+    <hr>
+    <p class="copyright">Jamhuriya School &copy; 2023 - ALL Right Reserved</p>
+</footer>
+</body>
+</html>
